@@ -39,8 +39,6 @@ function Weather() {
   if (loading) return <FadeLoader />;
   if (error) return <p>Error: {error}</p>;
 
-  //console.log(city);
-
   return (
     <div className="h-screen bg-primary-white flex justify-center items-center text-def-black">
       <div className="bg-sec-yellow h-80 w-80 rounded-xl p-2">
